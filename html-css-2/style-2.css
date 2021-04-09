@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 300;
+  margin: 20px 0 0 20px;
+  text-align: left;
+}
+
+p {
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  background-color: turquoise;
+  height: 5vh;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  box-sizing: border-box;
+  border: 1px dotted black;
+  margin: 0px 20px 20px 20px;
+  padding: 20px;
+}
+
+.coal {
+  font-size: 10px;
+}
+
+.eyes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyes > div {
+  margin: 14px 5px 5px 5px;
+}
+
+.body {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recs {
+  width: 50vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#rectangles {
+  display: flex;
+}
+
+#rec1 {
+  width: 150px;
+  height: 70px;
+  background-color: purple;
+  border: 2px solid red;
+  margin: 0 10px;
+}
+
+#rec2 {
+  width: 70px;
+  height: 70px;
+  background-color: blue;
+  box-shadow: 5px 5px 5px black;
+  margin: 0 10px;
+}
+
+#rec3 {
+  width: 150px;
+  height: 150px;
+  background-color: hotpink;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+
+#circles {
+  display: flex;
+  flex-direction: column;
+}
+
+#circ1 {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+#nose {
+  margin: 0px 0px 30px 20px;
+}
+
+#circ2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+#circ3 {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+#yellow-box {
+  width: 170px;
+  height: 170px;
+  background-color: cornsilk;
+  border: 1px solid black;
+}
+
+#green-circ {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+#red-box {
+  width: 90px;
+  height: 90px;
+  background-color: maroon;
+}
+
+#bowl {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
