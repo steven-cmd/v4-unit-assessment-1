@@ -64,8 +64,10 @@ function checkGroceryCount() {
     return "That looks like a big trip";
   } else if (numGrroceries > 1) {
     return `${numGrroceries} items`;
-  } else {
+  } else if (numGrroceries === 1) {
     return "1 item";
+  } else {
+    return "No items";
   }
 }
 
