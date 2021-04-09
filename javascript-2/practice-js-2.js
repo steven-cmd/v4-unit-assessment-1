@@ -9,7 +9,8 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition =
+  "Git is a version control software. You can track changes to you work, and it makes colaborating with others easier.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +18,8 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition =
+  "GitHub is a place where you can store your git repositories remotely and easily share repositories with others.";
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +35,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+  description: "initializes a git repository in the folder you are located",
+  code: "git init",
+};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +46,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+  description: "makes a copy of an existing repo on your machine.",
+  code: "git clone",
+};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +57,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+  description: "gives you the status of your local repository",
+  code: "git status",
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +68,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+  description: "Adds local files to the staging area",
+  code: "git add",
+};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +79,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+  description: "Saves files in the stagign area to the local repository",
+  code: "git commit -m ",
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +90,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+  description: "links your local repository to a remote repository ",
+  code: "git remote add origin",
+};
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +101,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+  description: "updates remote repository with local commits",
+  code: "git push",
+};
